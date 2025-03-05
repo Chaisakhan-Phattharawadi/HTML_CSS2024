@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phattharawadi Chaisakhan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, #ff9094, #fad0c4);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .menu a {
+            margin: 0 15px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            color: #ffddb3;
+        }
+
+        .container {
+            background: white;
+            text-align: center;
+            padding: 40px 30px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h1 {
+            color: #ff758c;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            color: #444;
+            font-size: 20px;
+        }
+
+        .map-container {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <h4><span style="color: rgb(255, 255, 255);">เมนูเว็ปไซต์</span>
+            <a href="index.htm">Index</a>
+            <a href="div-alignment_TEST.htm">div-align</a>
+            <a href="div.htm">div</a>
+            <a href="form.htm">form</a>
+            <a href="iframe.htm">iframe</a>
+            <a href="img.htm">img</a>
+            <a href="link.htm">link</a>
+            <a href="Table_alignment_TEST.htm">Table-alignment</a>
+            <a href="Style_Table_alignment.htm">style-Table</a>
+            <a href="ul_ui.htm">ul-ui</a>
+        </h4>
+    </div>
+
+    <div class="container">
+        <h1>My House</h1>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1741173909207!6m8!1m7!1saxERxKn-NvaBaQECQotslA!2m2!1d17.17990542716086!2d104.315616883462!3f241.69241738762253!4f-28.01621712623694!5f0.7820865974627469" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h4>บ้านเลขที่ 49 หมู่ 11 บ้านโพนแคกลาง ต.นาตงวัฒนา อ.โพนนาแก้ว จ.สกลนคร 47230</h4>
+    </div>
+
+</body>
+
+</html>

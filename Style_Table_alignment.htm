@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phattharawadi chaisakhan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background: linear-gradient(135deg, #ff9094, #fad0c4);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .menu a {
+            margin: 0 15px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            color: #ffddb3;
+        }
+
+        table {
+            width: 30%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        thead tr.top-bar {
+            background-color: #bc0000;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ffddd4;
+        }
+
+        td, th {
+            border: 1px solid #ddd;
+        }
+
+        td {
+            text-align: right;
+        }
+
+        .top-bar {
+            background: white;
+            text-align: center;
+            padding: 40px 30px;
+            margin-top: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 600px;
+            transition: transform 0.3s ease;
+        }
+
+        .top-bar:hover {
+            transform: scale(1.02);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <h4>
+            <center class="web"><span style="color: rgb(255, 255, 255);">เมนูเว็ปไซต์</span>
+                <a href="index.htm">Index</a>
+                <a href="div-alignment_TEST.htm">div-align</a>
+                <a href="div.htm">div</a>
+                <a href="form.htm">form</a>
+                <a href="iframe.htm">iframe</a>
+                <a href="img.htm">img</a>
+                <a href="link.htm">link</a>
+                <a href="Table_alignment_TEST.htm">Table-alignment</a>
+                <a href="Style_Table_alignment.htm">style-Table</a>
+                <a href="ul_ui.htm">ul-ui</a>
+            </center>
+        </h4>
+    </div>
+
+    <table>
+        <thead>
+            <tr class="top-bar">
+                <th width="50px" align="right">ลําดับ</th>
+                <th align="left">สินค้า</th>
+                <th width="100px" align="right">ราคา</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="right">1</td>
+                <td>JS</td>
+                <td align="right">500 บาท</td>
+            </tr>
+            <tr>
+                <td align="right">2</td>
+                <td>CSS</td>
+                <td align="right">500 บาท</td>
+            </tr>
+            <tr>
+                <td align="right">3</td>
+                <td>HTML</td>
+                <td align="right">400 บาท</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
